@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background: #0d6efd;
+            padding: 15px;
+            color: white;
+            text-align: center;
+        }
+
+        nav {
+            text-decoration: none;
+            background: #003099;
+            color: white;
+            padding: 10px;
+            float: justify;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        .konten {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .konten img {
+            width: 600px;
+        }
+
+        .teks {
+            margin-right: 20px;
+            font-size: 40px;
+            font-family: verdana;
+        }
+
+        footer {
+            background: #0d6efd;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<script>
+    var waktu = new Date();
+    document.write(waktu);
+    document.write("<br>")
+    var jam = waktu.getHours();
+    var menit = waktu.getMinutes();
+</script>
+<header>
+    <h1>Selamat datang di toko baju online</h1>
+</header>
+<body>
+    <nav>
+        <a href="uaswebabout.html">About</a> |
+        <a href="uascontact.html">contact</a> |
+        <a href="galleryuasweb.html">Gallery |</a>
+        <a href="uaswebproduk.html">Produk</a>
+    </nav>
+    <div class="konten">
+        <div class="teks">
+            <h2>TOKO BAJU ONLINE</h2>
+            <p>
+                tokobaju online yang menyediakan berbagai
+                pakaian modern dengan kualitas terbaik dan harga terjangkau.
+            </p>
+        </div>
+        <img src="kk.png" alt="gambar">
+    </div>
+    <footer>
+        &copy; 2026 - MUHAMMAD IRHAM MAULANA - 251011700117 - 01SIFP0002
+    </footer>
+</body>
+</html>
